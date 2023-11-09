@@ -1,0 +1,69 @@
+
+.aplication {
+    position: absolute;
+      top: 20%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: black;
+      height: 400px;
+      width: 400px;
+      border-radius: 8px;
+      box-shadow: 0 0 50px #0ef;
+      padding: 60px 20px;
+    }
+
+.result{
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: #fff;
+    
+}
+
+.buttons{
+    display: flex;
+    width: 100%;
+  
+    flex-direction: column;
+  }
+
+.button{
+    height: 40px;
+    width: 100%;
+    margin: 0 2px;
+    background-color: #0ef;
+    font-size: 2rem;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    margin-top: 5px;
+  }
+
+  .button:hover{
+    background-color: black;
+    color: #0ef;
+    border: 1px solid #0ef;
+  }
+
+/*-------------RESPONSIVIDADE----------------*/
+
+  @media (max-width: 438px){
+
+
+    .aplication {
+          position: absolute;
+          top: 20%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          background-color: black;
+          height: 70%;
+          width: 80%;
+          border-radius: 8px;
+          box-shadow: 0 0 50px #0ef;
+          padding: 60px 20px;
+        }
+  }
